@@ -16,12 +16,19 @@ Creating the data set
 The R script run_analysis.R aims to create the data set and tidy.txt file contains the outcome after runnung this script. The steps in the document are as follows:
 
 Step 0A- Download and unzip source data if it doesn't exist.
+
 Step 0B- Read data.
+
 Step 1- Merge the training and the test sets to create one data set.
+
 Step 2- Extract only the measurements on the mean and standard deviation for each measurement.
+
 Step 3- Use descriptive activity names to name the activities in the data set.
-Step 4-Appropriately label the data set with descriptive variable names.
+
+Step 4- Appropriately label the data set with descriptive variable names.
+
 Step 5- Create a second, independent tidy set with the average of each variable for each activity and each subject.
+
 Step6- Write the data set to the tidy_data.txt file.
 
 So, the tidy_data.txt is created by running the run_analysis.R script using R version 3.4.1 on Windows 8.1 64-bit edition.
